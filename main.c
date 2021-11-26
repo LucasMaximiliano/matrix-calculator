@@ -20,7 +20,7 @@ int main()
 	scanf("%lf", &d);
 	
 	double M[2][2] = {{a, b}, 
-				   {c, d}};					// Die Matrix wird kreiert und initializiert.
+			  {c, d}};					// Die Matrix wird kreiert und initializiert.
 	
 	printf("\nDie eingestellte Matrix hat folgende Elemente: \n");
 	for(int i = 0; i < 2; i++) {
@@ -57,11 +57,11 @@ int main()
 	
 	void mit_skalar_multiplizieren() {
 		for(int i = 0; i < 2; i++) {
-			M[0][i] = M[0][i] / M[0][0];	// !!! FUNKTION GEHT NICHT !!!
+			M[0][i] = M[0][i] / M[0][0];			// !!! FUNKTION GEHT NICHT !!!
 		}
 	}
 	
-	mit_skalar_multiplizieren();			// Der führende Eins der ertsen Zeile wird erzeugt.
+	mit_skalar_multiplizieren();					// Der führende Eins der ertsen Zeile wird erzeugt.
 	
 	printf("\nDie eingestellte Matrix hat folgende Elemente: \n");
 	for(int i = 0; i < 2; i++) {
